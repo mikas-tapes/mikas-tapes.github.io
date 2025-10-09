@@ -1,26 +1,20 @@
 /* Basis-Design */
 
 * {
-    color: #393858;
-    /* font-family: monospace; */
-    /* font-family: Inter;
-    font-weight: lighter;
-    margin: 0; */
+    
 
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    color: #393858;
 }
 
 body {
-    font-family: monospace;
-    font: courier-new;
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-size: clamp(10px, 3vw, 20px);
 
-
+    color: #393858;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    color: #393858;
+    font-size: clamp(10px, 2vw, 20px);
 }
 
 header {
@@ -63,8 +57,8 @@ header {
 }
 
 .profile-link img {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     display: block;
     /* entfernt kleinen Inline-Gap */
@@ -93,7 +87,6 @@ nav a:hover {
 p {
     font-family: monospace;
     font: courier-new;
-    font-size: 15px;
     text-align: center;
 }
 
@@ -154,11 +147,15 @@ p {
 }
 
 .social-links img {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     filter: grayscale(100%);
     /* dezenter Look */
     transition: filter 0.2s ease;
+    border-radius: 50%;
+    border-color: #000;
+    border-width: 1px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
 }
 
 .social-links a {
