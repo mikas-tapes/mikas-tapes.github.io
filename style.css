@@ -10,7 +10,7 @@ body {
     font-weight: 100;
     color: #393858;
     font-size: clamp(10px, 1.2vw, 20px);
-    border: solid;
+    /* border: solid; */
 }
 
 header {
@@ -106,7 +106,7 @@ p {
     /* auto setzt links/rechts margin gleich, also alles mittig */
     max-width: 800px;
     width: 400px;
-    border: solid;
+    /* border: solid; */
 }
 
 .social-links {
@@ -118,7 +118,7 @@ p {
     text-align: left;
     justify-content: center;
     align-items: center;
-    border: solid;
+    /* border: solid; */
 
 }
 
