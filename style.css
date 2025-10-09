@@ -1,10 +1,5 @@
 /* Basis-Design */
 
-* {
-    
-
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +9,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     color: #393858;
-    font-size: clamp(10px, 2vw, 20px);
+    font-size: clamp(10px, 1.2vw, 20px);
+    border: solid;
 }
 
 header {
@@ -61,8 +57,6 @@ header {
     height: 48px;
     border-radius: 50%;
     display: block;
-    /* entfernt kleinen Inline-Gap */
-    /* border: 5px solid red; */
 }
 
 
@@ -112,6 +106,7 @@ p {
     /* auto setzt links/rechts margin gleich, also alles mittig */
     max-width: 800px;
     width: 400px;
+    border: solid;
 }
 
 .social-links {
@@ -123,11 +118,8 @@ p {
     text-align: left;
     justify-content: center;
     align-items: center;
-}
+    border: solid;
 
-.social-links h2 {
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .social-links ul {
