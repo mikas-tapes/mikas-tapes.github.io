@@ -141,7 +141,7 @@ p {
 .social-links img {
     width: 48px;
     height: 48px;
-    filter: grayscale(100%);
+    filter: grayscale(35%);
     /* dezenter Look */
     transition: filter 0.2s ease;
     border-radius: 50%;
