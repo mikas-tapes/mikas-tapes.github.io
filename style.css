@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     color: #393858;
-    font-size: clamp(10px, 1.2vw, 16px);
+    font-size: clamp(10px, 1.1vw, 16px);
     /* border: solid; */
 }
 
